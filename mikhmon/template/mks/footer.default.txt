@@ -1,0 +1,21 @@
+
+<script>
+    if($(".validity")){
+        nice('.validity')
+    }
+    if($(".timelimit")){
+        nice('.timelimit')
+    }
+    function nice(c){
+        var x =  $(c).html();
+        if(x.substring(x.length - 1) == "d"){
+            $(c).html(x.replace("d","Hari"));
+        }else if(x.substring(x.length - 1) == "h"){
+            $(c).html(x.replace("h","Jam"));
+        }else if(x.substring(x.length - 1) == "w"){
+            $(c).html(x.replace("w","Minggu"));
+        }
+    }
+</script>
+</body>
+</html>

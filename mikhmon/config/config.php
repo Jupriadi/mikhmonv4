@@ -1,0 +1,3 @@
+<?php  if(substr($_SERVER["REQUEST_URI"], -10) == "config.php"){header("HTTP/1.0 403 Forbidden", true, 403); echo "403 Forbidden";die();}
+$data['mikhmon'] = array ('1'=>'mikhmon<|<mikhmon','mikhmon>|>ZmdoaQ==');
+$data['rcsanjani'] = array ('1'=>'rcsanjani!103.144.144.18','rcsanjani@|@mikki','rcsanjani#|#opaoqZqnpaSnqQ==','rcsanjani%ezza.net','rcsanjani^ezza.net','rcsanjani&Rp','rcsanjani*','rcsanjani(','rcsanjani)','rcsanjani=30','rcsanjani@!@085339463840');
